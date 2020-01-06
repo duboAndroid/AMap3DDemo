@@ -63,5 +63,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    //or  修改“bulid.gradle”文件，引入自定义的debug文件。
+    /*signingConfigs {
+        debug {
+            storeFile file("/Users/Downloads/debug.keystore")
+        }
+    }*/
 }
 
